@@ -2,6 +2,9 @@ from selenium.webdriver.common.by import By
 
 
 class PasswordRecoveryPageLocators:
+
+    EMAIL_INPUT = (By.XPATH, "//input[@name='name']")  # Поле ввода почты
+
     # Кнопка "Восстановить пароль"
     RECOVER_PASSWORD_BUTTON = (By.XPATH, "//a[contains(text(),'Восстановить пароль')]")
 

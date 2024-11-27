@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-
 class MainPageLocators:
+
     # Кнопка "Конструктор"
     CONSTRUCTOR_BUTTON = (By.XPATH, "//p[contains(text(),'Конструктор')]")
 
